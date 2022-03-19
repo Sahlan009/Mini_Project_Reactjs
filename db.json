@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "Name": "Mouse",
+      "Quantity": "10",
+      "Price": "200.000",
+      "Category": "Acc",
+      "id": 1
+    },
+    {
+      "Name": "Headset",
+      "Quantity": "10",
+      "Price": "500.000",
+      "Category": "Acc",
+      "id": 2
+    },
+    {
+      "Name": "Keyboard",
+      "Quantity": "10",
+      "Price": "500.000",
+      "Category": "Acc",
+      "id": 3
+    },
+    {
+      "Name": "Mousepad",
+      "Quantity": "20",
+      "Price": "100.000",
+      "Category": "Acc",
+      "id": 4
+    },
+    {
+      "Name": "Gaming Table",
+      "Quantity": "10",
+      "Price": "1.500.000",
+      "Category": "Furniture",
+      "id": 5
+    },
+    {
+      "Name": "Gaming chair",
+      "Quantity": "10",
+      "Price": "1.200.000",
+      "Category": "Furniture",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "email": "admintestdev@mail.com",
+      "password": "1234567891011",
+      "username": "testdev@mail.com",
+      "address":"",
+      "phone_number":"",
+      "join_date":"",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "testdev@mail.com",
+      "password": "1234567891011",
+      "username": "testdev@mail.com",
+      "id": 1
+    }
+  ]
+}

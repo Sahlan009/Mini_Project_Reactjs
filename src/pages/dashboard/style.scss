@@ -1,0 +1,36 @@
+.dashboard-page {
+    $main-color: #4b4b4b;
+    $second-color: #35326d;
+    $third-color: #939393;
+    
+
+    color: $main-color;
+    text-align: center;
+    background-image: url('../../asset/TegalPanjang.jpg');
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+    overflow: hidden;
+
+    .dashboard-container {
+        margin: 200px auto;
+        padding: 20px 20px;
+        background-color: white;
+        border-radius: 20px;
+        opacity: 0.9;
+
+    }
+    .btn-submit {
+        margin: 0px 0px;
+        width: 50%;
+        border-radius: 25px;
+        text-align: center !important;
+        background-image: linear-gradient(to right, $second-color, $main-color, $third-color);
+    &:active, &:focus {
+        box-shadow: none;
+    }
+    }
+}

@@ -1,0 +1,123 @@
+.login-page {
+    $main-color: #4b4b4b;
+    $second-color: #35326d;
+    $third-color: #939393;
+    
+
+    color: $main-color;
+    text-align: center;
+    background-image: url('../../asset/TegalPanjang.jpg');
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 100px;
+    overflow: hidden;
+
+    .form-container{
+        margin: 150px auto;
+        padding: 40px 20px;
+        max-width: 350px;
+        background-color: white;
+        border-radius: 20px;
+        opacity: 0.9;
+
+        .title {
+            font-size: clamp(1rem, 1vw + 2rem, 3rem);
+        }
+        .row-input {
+            margin: 0px;
+            height: 70px;
+            text-align: left;
+        }
+        .form-control{
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px solid $main-color;
+        
+            &:focus{
+                box-shadow: none;
+            }
+        }
+
+        .invalid-feedback {
+            font-size: 10px;
+        }
+    }
+    .btn-submit {
+        margin: 10px 0px;
+        width: 100%;
+        border-radius: 25px;
+        text-align: center !important;
+        background-image: linear-gradient(to right, $second-color, $main-color, $third-color);
+    &:active, &:focus {
+        box-shadow: none;
+    }
+    }
+    .signup {
+        font-size: 12px;
+        a{
+            color: $main-color;
+        }
+    }
+}
+
+.register-page {
+    $main-color: #4b4b4b;
+    $second-color: #35326d;
+    $third-color: #939393;
+    
+
+    color: $main-color;
+    text-align: center;
+    background-image: url('../../asset/TegalPanjang.jpg');
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 200px;
+    overflow: hidden;
+
+    .form-container{
+        margin: 10px auto;
+        padding: 10px 10px;
+        max-width: 350px;
+        background-color: white;
+        border-radius: 20px;
+        opacity: 0.9;
+
+        .title {
+            font-size: clamp(0.5rem, 0.5vw + 1rem, 1.5rem);
+        }
+        .row-input {
+            margin: 0px;
+            height: 70px;
+            text-align: left;
+        }
+        .form-control{
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px solid $main-color;
+        
+            &:focus{
+                box-shadow: none;
+            }
+        }
+
+        .invalid-feedback {
+            font-size: 10px;
+        }
+    }
+    .btn-submit {
+        margin: 10px 0px;
+        width: 100%;
+        border-radius: 25px;
+        text-align: center !important;
+        background-image: linear-gradient(to right, $second-color, $main-color, $third-color);
+    &:active, &:focus {
+        box-shadow: none;
+        }
+    }
+}
